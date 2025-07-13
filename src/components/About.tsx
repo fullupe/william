@@ -26,7 +26,7 @@ const About = () => {
     },
     {
       company: "MPI Ghana",
-      role: "Data Codinator  Engineer",
+      role: "Data Coordinator  Engineer",
       description: "Specializing in collecting and analyzing cell site data for business needs across giant telecommunication sites in  Ghana.",
       icon: <LucideGitGraph className="h-6 w-6" />,
       color: "from-green-500 to-green-600"

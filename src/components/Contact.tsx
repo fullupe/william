@@ -49,7 +49,7 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       label: "Email",
-      value: "william@fybelite.com",
+      value: "william@fyberlite.com",
       href: "mailto:wnk.gyekye@gmail.com",
       color: "from-blue-500 to-blue-600"
     },
@@ -70,7 +70,7 @@ const Contact = () => {
     {
       icon: <Globe className="h-6 w-6" />,
       label: "Website",
-      value: "www.fybelite.com",
+      value: "www.fyberlite.com",
       href: "https://fyberlite.vercel.app/",
       color: "from-green-500 to-green-600"
     }
