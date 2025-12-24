@@ -47,6 +47,19 @@ const Projects = () => {
       color: "from-teal-500 to-teal-600"
     },
     {
+      title: "Lottery Application",
+      description: "Full-Featured Lottery Application: Securely integrated with Paystack for payments and offering real-time 12/90 instant betting.",
+      tech: ["React Native", "Spabase", "Node.js", "Expo", "Zustand"],
+      category: "Mobile Development",
+      icon: <Smartphone className="h-6 w-6" />,
+      image: "https://res.cloudinary.com/fullupe/image/upload/v1759759656/IMG_8993_2_vlcunm.png",
+      // image: "https://res.cloudinary.com/fullupe/image/upload/v1759759650/IMG_8994_2_yujjue.png",
+      vimeoUrl:"https://player.vimeo.com/video/1124840598?h=0b9c0f183b",  
+      liveUrl: "#",
+      githubUrl: "#",
+      color: "from-teal-500 to-teal-600"
+    },
+    {
       title: "Portable Point Of Sales ",
       description: "A full-featured handheld Android Point-of-Sale (POS) system tailored for pizza shops. It provides intuitive order entry (including custom pizza configurations), integrated secure payment options, efficient transaction management, and real-time sales reporting for streamlined operations..",
       tech: ["React Native", "SQLite", "Node.js", "Expo", "Zustand"],
@@ -54,6 +67,18 @@ const Projects = () => {
       icon: <Smartphone className="h-6 w-6" />,
       image: "https://res.cloudinary.com/fullupe/image/upload/v1751328416/F4979458-406C-4FCF-89FF-F67FEC6F81DC_t5fhge.jpg",
       vimeoUrl:"https://player.vimeo.com/video/1003765407?h=37e40fb782",
+      liveUrl: "#",
+      githubUrl: "#",
+      color: "from-teal-500 to-teal-600"
+    },
+    {
+      title: "Portable Point Of Sales ",
+      description: "We’ve designed this solution to be fast, reliable, and incredibly simple to use, so you can focus on what matters most: serving your customers. Part 2: Key Features and Benefits,  Our system is packed with features to help you manage your business more efficiently.",
+      tech: ["React Native", "SQLite", "Node.js", "Expo", "Zustand"],
+      category: "Mobile Development",
+      icon: <Smartphone className="h-6 w-6" />,
+      image: "https://res.cloudinary.com/fullupe/image/upload/v1766591445/pos_egcqi1.png",
+      vimeoUrl:"https://player.vimeo.com/video/1124828326?fl=tl&fe=ec",
       liveUrl: "#",
       githubUrl: "#",
       color: "from-teal-500 to-teal-600"
@@ -114,6 +139,20 @@ const Projects = () => {
       icon: <Monitor className="h-6 w-6" />,
       image: "https://res.cloudinary.com/fullupe/image/upload/v1750863180/ticketing-sys_xny1o4.png",
       vimeoUrl: "https://player.vimeo.com/video/849787025?h=86b664874b",
+      liveUrl: "#",
+      githubUrl: "#",
+      color: "from-orange-500 to-orange-600"
+    },
+    
+    {
+     
+      title: "Ballot System",
+      description: "It’s a web app where anyone can sign up and get their own dashboard to create a ballot in minutes, You create a ballot, give it a title, and choose the number of participants—anywhere from 2 to 12 people,  Once that’s done, the app generates a unique link that you share with the participants.",
+      tech: ["Nextjs", "TypeScript", "Node.js", "React"],
+      category: "Web Application",
+      icon: <Monitor className="h-6 w-6" />,
+      image: "https://res.cloudinary.com/fullupe/image/upload/v1766580905/simpleballot_ecyi7s.png",     
+      vimeoUrl: "https://player.vimeo.com/video/1149170927?fl=tl&fe=ec",
       liveUrl: "#",
       githubUrl: "#",
       color: "from-orange-500 to-orange-600"
