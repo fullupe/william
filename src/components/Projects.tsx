@@ -19,7 +19,7 @@ const Projects = () => {
     liveUrl: string;
     githubUrl: string;
     color: string;
-}
+        }
 
   const projects = [
     // {
@@ -83,6 +83,46 @@ const Projects = () => {
       githubUrl: "#",
       color: "from-teal-500 to-teal-600"
     },
+
+     {
+     
+      title: "Ballot System",
+      description: "It’s a web app where anyone can sign up and get their own dashboard to create a ballot in minutes, You create a ballot, give it a title, and choose the number of participants—anywhere from 2 to 12 people,  Once that’s done, the app generates a unique link that you share with the participants.",
+      tech: ["Nextjs", "TypeScript", "Node.js", "React"],
+      category: "Web Application",
+      icon: <Monitor className="h-6 w-6" />,
+      image: "https://res.cloudinary.com/fullupe/image/upload/v1766580905/simpleballot_ecyi7s.png",     
+      vimeoUrl: "https://player.vimeo.com/video/1149170927?fl=tl&fe=ec",
+      liveUrl: "#",
+      githubUrl: "#",
+      color: "from-orange-500 to-orange-600"
+    },
+     {
+     
+      title: "P.O.S on Desktop & Web ",
+      description: " It’s a comprehensive POS and Inventory Management platform designed specifically for grocery shop owners. Owners can manage their entire product catalog, track real-time stock levels, and process sales through a lightning-fast checkout interface optimized for both Desktop and Web. Beyond the counter, the app automatically generates detailed financial reports and inventory insights, giving you total transparency over your shop's performance and stock health..",
+      tech: ["Nextjs", "TypeScript", "Node.js", "React","SQLite"],
+      category: "Web Application & Desktop",
+      icon: <Monitor className="h-6 w-6" />,
+      image: "https://res.cloudinary.com/fullupe/image/upload/v1769356866/Screenshot_2026-01-25_at_4.24.20_PM_zww89b.png",  
+      vimeoUrl: "https://player.vimeo.com/video/1158141974?fl=ip&fe=ec",
+      liveUrl: "#",
+      githubUrl: "#",
+      color: "from-orange-500 to-orange-600"
+    },
+
+      {
+      title: " I.T Ticketing System",
+      description: "Designed as a robust web application, this system streamlines customer support and technical issue resolution. It provides an intuitive workflow builder for ticket lifecycle management, intelligent task routing and scheduling, and strong integration capabilities with CRM and internal documentation systems.",
+      tech: ["Nextjs", "TypeScript", "Node.js", "React"],
+      category: "Web Application",
+      icon: <Monitor className="h-6 w-6" />,
+      image: "https://res.cloudinary.com/fullupe/image/upload/v1750863180/ticketing-sys_xny1o4.png",
+      vimeoUrl: "https://player.vimeo.com/video/849787025?h=86b664874b",
+      liveUrl: "#",
+      githubUrl: "#",
+      color: "from-orange-500 to-orange-600"
+    },
     {
       title: "IoT Device Management Platform",
       description: "Centralized platform for managing and monitoring IoT devices across multiple locations. Includes device provisioning, firmware updates, and data visualization.",
@@ -131,32 +171,9 @@ const Projects = () => {
       githubUrl: "#",
       color: "from-orange-500 to-orange-600"
     },
-    {
-      title: " I.T Ticketing System",
-      description: "Designed as a robust web application, this system streamlines customer support and technical issue resolution. It provides an intuitive workflow builder for ticket lifecycle management, intelligent task routing and scheduling, and strong integration capabilities with CRM and internal documentation systems.",
-      tech: ["Nextjs", "TypeScript", "Node.js", "React"],
-      category: "Web Application",
-      icon: <Monitor className="h-6 w-6" />,
-      image: "https://res.cloudinary.com/fullupe/image/upload/v1750863180/ticketing-sys_xny1o4.png",
-      vimeoUrl: "https://player.vimeo.com/video/849787025?h=86b664874b",
-      liveUrl: "#",
-      githubUrl: "#",
-      color: "from-orange-500 to-orange-600"
-    },
+  
     
-    {
-     
-      title: "Ballot System",
-      description: "It’s a web app where anyone can sign up and get their own dashboard to create a ballot in minutes, You create a ballot, give it a title, and choose the number of participants—anywhere from 2 to 12 people,  Once that’s done, the app generates a unique link that you share with the participants.",
-      tech: ["Nextjs", "TypeScript", "Node.js", "React"],
-      category: "Web Application",
-      icon: <Monitor className="h-6 w-6" />,
-      image: "https://res.cloudinary.com/fullupe/image/upload/v1766580905/simpleballot_ecyi7s.png",     
-      vimeoUrl: "https://player.vimeo.com/video/1149170927?fl=tl&fe=ec",
-      liveUrl: "#",
-      githubUrl: "#",
-      color: "from-orange-500 to-orange-600"
-    },
+   
     // {
     //   title: "Cloud Infrastructure Orchestrator",
     //   description: "DevOps platform for automated cloud infrastructure deployment and management across multiple cloud providers with cost optimization features.",
