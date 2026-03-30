@@ -136,14 +136,15 @@ const Projects = () => {
       color: "from-purple-500 to-purple-600"
     },
     {
-      title: "Business Intelligence Dashboard",
-      description: "Advanced analytics platform providing real-time business insights with interactive visualizations, automated reporting, and predictive analytics.",
-      tech: ["Nextjs", "Reactjs","JavaScript", "shadcn/ui", "Google AppScript"],
-      category: "Data Analytics",
+      title: "Simple E-commerce ",
+      description: "This is a streamlined WhatsApp-First E-Commerce Platform designed to bridge the gap between digital browsing and personalized conversational selling. By removing complex third-party payment gateways, the system focuses on direct customer-to-vendor engagement and local payment methods.",
+      tech: ["Nextjs", "Reactjs","JavaScript", "shadcn/ui", "Supabase"],
+      category: "Web Application",
       icon: <BarChart className="h-6 w-6" />,
-      image: "https://res.cloudinary.com/fullupe/image/upload/v1750860636/workorder_rrrtve.png",
+      image: "https://res.cloudinary.com/fullupe/image/upload/v1774830576/Screenshot_2026-03-30_at_1.27.52_AM_cgogu6.png",
       vimeoUrl: "",
-      liveUrl: "https://randsworkorder.vercel.app/MONITOR/uyo",
+      // liveUrl: "https://randsworkorder.vercel.app/MONITOR/uyo",
+      liveUrl: "https://shop-me-online-nheq324s0-fullupes-projects.vercel.app/",
       githubUrl: "#",
       color: "from-green-500 to-green-600"
     },
@@ -160,18 +161,26 @@ const Projects = () => {
       color: "from-green-500 to-green-600"
     },
     {
-      title: "Pizza Shop POS System",
-      description: "An Electron.js desktop application designed for streamlined Point-of-Sale operations in pizza shops, featuring an intuitive order workflow designer, real-time inventory management (for ingredients), and seamless integration with kitchen display systems and payment terminals.",
-      tech: ["Electron", "TypeScript", "SQLite", "Node.js", "React"],
-      category: "Desktop Application",
+      title: "Restaurant Management System",
+      description: " This Restaurant Management System is a high-performance, digital ecosystem designed to eliminate kitchen chaos and streamline the dining experience. Built with a modern tech stack, it connects the front-of-house, the kitchen, and the customer through a seamless, real-time data flow.",
+      tech: ["Nextjs", "TypeScript", "MySQl", "Node.js", "React"],
+      category: "web & Desktop Application",
       icon: <Monitor className="h-6 w-6" />,
-      image: "https://res.cloudinary.com/fullupe/image/upload/v1750862651/pos-buld_mty2nj.png",
-      vimeoUrl: "https://player.vimeo.com/video/676737530?h=20d1d07e18",
+      image: "https://res.cloudinary.com/fullupe/image/upload/v1774824819/Whisk_ef76bc6bbcf5708823944cc009347875dr_ywc754.jpg",    
+      vimeoUrl: "https://player.vimeo.com/video/1178271533?fl=ip&fe=ec",
       liveUrl: "#",  
       githubUrl: "#",
       color: "from-orange-500 to-orange-600"
     },
   
+    // 
+
+// Core Modules
+// Dynamic POS Station: A fast, intuitive interface for cashiers to process walk-in orders, handle payments, and instantly trigger kitchen preparation.
+
+// Smart Kitchen Monitor (KDS): A digital replacement for paper tickets, providing chefs with an organized, live view of incoming orders to improve prep speed and accuracy.
+
+// Live Customer Status Board: A high-visibility monitor that keeps diners informed with real-time "Preparing" and "Ready" status updates, reducing counter congestion.
     
    
     // {
