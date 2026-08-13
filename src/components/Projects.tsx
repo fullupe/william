@@ -28,9 +28,9 @@ const Projects = () => {
     //   tech: ["Switching", "Routing", "Cabling", "Design", "Monitoring","Maintenance","Troubleshooting"],
     //   category: "Network Systems",
     //   icon: <Shield className="h-6 w-6" />,
-    //   image: "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
-    //   vimeoUrl: "#",
-    //   liveUrl: "#",
+    //   image: "https://scontent-los4-1.xx.fbcdn.net/v/t39.30808-6/650227273_10162530258176769_8582341907611130786_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a74216&_nc_ohc=U8M2_AwBcRkQ7kNvwGAWwan&_nc_oc=AdrWLhjHy-kQH2xjj24rZrLaeWKmTSWAph1pxKAQpbb2bFsQHthBUPPxAicsQQYf_i8&_nc_zt=23&_nc_ht=scontent-los4-1.xx&_nc_gid=iPOlMAsH5bOZ8DlCdR5I4g&_nc_ss=7a3a8&oh=00_Afxy4LFHYLAZueCvgvWJrwnXq4lSqK3cwwz0GedQva2HIw&oe=69D03B97",
+    //   vimeoUrl: "https://photos.google.com/share/AF1QipOam9uEDWwtn1nvl-Eo2NZBaSBrPlpJ4NptQJTSVzcipsjvTp8UxQW11cWE9hTILw?key=UGdWUTJCTWZhVTVucFhhRkZnS0NSdU1nX3VaX1RR",
+    //   liveUrl: "https://scontent-los4-1.xx.fbcdn.net/v/t39.30808-6/650227273_10162530258176769_8582341907611130786_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a74216&_nc_ohc=U8M2_AwBcRkQ7kNvwGAWwan&_nc_oc=AdrWLhjHy-kQH2xjj24rZrLaeWKmTSWAph1pxKAQpbb2bFsQHthBUPPxAicsQQYf_i8&_nc_zt=23&_nc_ht=scontent-los4-1.xx&_nc_gid=iPOlMAsH5bOZ8DlCdR5I4g&_nc_ss=7a3a8&oh=00_Afxy4LFHYLAZueCvgvWJrwnXq4lSqK3cwwz0GedQva2HIw&oe=69D03B97",
     //   githubUrl: "#",
     //   color: "from-blue-500 to-blue-600"
     // },
@@ -46,19 +46,19 @@ const Projects = () => {
       githubUrl: "#",
       color: "from-teal-500 to-teal-600"
     },
-    {
-      title: "Lottery Application",
-      description: "Full-Featured Lottery Application: Securely integrated with Paystack for payments and offering real-time 12/90 instant betting.",
-      tech: ["React Native", "Spabase", "Node.js", "Expo", "Zustand"],
-      category: "Mobile Development",
-      icon: <Smartphone className="h-6 w-6" />,
-      image: "https://res.cloudinary.com/fullupe/image/upload/v1759759656/IMG_8993_2_vlcunm.png",
-      // image: "https://res.cloudinary.com/fullupe/image/upload/v1759759650/IMG_8994_2_yujjue.png",
-      vimeoUrl:"https://player.vimeo.com/video/1124840598?h=0b9c0f183b",  
-      liveUrl: "#",
-      githubUrl: "#",
-      color: "from-teal-500 to-teal-600"
-    },
+    // {
+    //   title: "Lottery Application",
+    //   description: "Full-Featured Lottery Application: Securely integrated with Paystack for payments and offering real-time 12/90 instant betting.",
+    //   tech: ["React Native", "Spabase", "Node.js", "Expo", "Zustand"],
+    //   category: "Mobile Development",
+    //   icon: <Smartphone className="h-6 w-6" />,
+    //   image: "https://res.cloudinary.com/fullupe/image/upload/v1759759656/IMG_8993_2_vlcunm.png",
+    //   // image: "https://res.cloudinary.com/fullupe/image/upload/v1759759650/IMG_8994_2_yujjue.png",
+    //   vimeoUrl:"https://player.vimeo.com/video/1124840598?h=0b9c0f183b",  
+    //   liveUrl: "#",
+    //   githubUrl: "#",
+    //   color: "from-teal-500 to-teal-600"
+    // },
     {
       title: "Portable Point Of Sales ",
       description: "A full-featured handheld Android Point-of-Sale (POS) system tailored for pizza shops. It provides intuitive order entry (including custom pizza configurations), integrated secure payment options, efficient transaction management, and real-time sales reporting for streamlined operations..",
@@ -168,6 +168,31 @@ const Projects = () => {
       icon: <Monitor className="h-6 w-6" />,
       image: "https://res.cloudinary.com/fullupe/image/upload/v1774824819/Whisk_ef76bc6bbcf5708823944cc009347875dr_ywc754.jpg",    
       vimeoUrl: "https://player.vimeo.com/video/1178271533?fl=ip&fe=ec",
+      liveUrl: "#",  
+      githubUrl: "#",
+      color: "from-orange-500 to-orange-600"
+    },
+    {
+      title: "School Management System",
+      description: "This School Management System is a high-performance, digital ecosystem designed to eliminate administrative chaos and streamline the educational experience. Built with a modern tech stack, it connects the administration, the classroom, and the bursar through a seamless, real-time data flow.",
+      tech: ["Nextjs", "TypeScript", "MySQl", "Node.js", "React"],
+      category: "web  Application",
+      icon: <Monitor className="h-6 w-6" />,
+      image: "https://res.cloudinary.com/fullupe/image/upload/v1781186082/school-management-sys_dovzbh.jpg", 
+      vimeoUrl: "https://player.vimeo.com/video/1190057445?fl=ip&fe=ec",
+      liveUrl: "#",  
+      githubUrl: "#",
+      color: "from-orange-500 to-orange-600"
+    },
+    {
+      title: "Lotto forecast ChatBot",
+      description: "A lightweight conversational chatbot that delivers real-time draw results, historical data lookups, and automated trend forecasting for over 45 lottery games using simple, responsive text commands.",
+      tech: ["Nextjs", "TypeScript", "supabase", "Node.js", "React"],
+      category: "web  Application",
+      icon: <Monitor className="h-6 w-6" />,
+      image: "https://res.cloudinary.com/fullupe/image/upload/v1782742114/Screenshot_2026-06-29_at_3.07.39_PM_do5zzp.png", 
+      vimeoUrl: "https://player.vimeo.com/video/1205456960?fl=pl&fe=sh",
+    
       liveUrl: "#",  
       githubUrl: "#",
       color: "from-orange-500 to-orange-600"

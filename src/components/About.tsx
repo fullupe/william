@@ -73,7 +73,15 @@ const About = () => {
                 ecosystems and business requirements.
               </p>
               <p>
-                Today, through FyberLite Solutions, I leverage this diverse background to help 
+                Today, through 
+
+                <a href="https://fyberlite.vercel.app/" target="_blank" >
+               
+                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-500 ml-2 underline">FyberLite Solutions</span>
+                   
+              </a>
+                
+                , I leverage this diverse background to help 
                 organizations navigate complex technical challenges and implement innovative solutions 
                 that drive real business value.
               </p>
